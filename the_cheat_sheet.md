@@ -101,7 +101,8 @@ iex> a = 2
 iex> ^a = 3
 ** (MatchError) no match of right hand side value: 3
 ```
-_note:_ in
+_note:_ in the example above the ```^``` is known as the pin operator. It is used to access the previously bound(assigned) variable.
+
 _Source_: [Elixir Lang](http://elixir-lang.org/crash-course.html#variable-names)
 
 ###### A pretty awesome explanation of the above
