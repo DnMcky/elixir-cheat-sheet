@@ -13,7 +13,9 @@ defmodule Path.To.Module do
     #Find a bunch of functions here
 end
 ```
-_Source_: [Elixir Getting Started](http://elixir-lang.org/getting-started/modules.html)
+  _note_: the ```#``` you see in the code example above denotes a comment. Comments are lines in the code that are not executed and usually describe the next line in thr programme.
+
+  _Source_: [Elixir Getting Started](http://elixir-lang.org/getting-started/modules.html)
 
 ### Function
 A block of code that performs a specific task.
@@ -73,7 +75,7 @@ sum = &(&1 + &2)
 ```
 _note:_ ```&1``` and ```&2``` show how the paramters are made available
 
-_Source_: [Elixir School](https://elixirschool.com/lessons/basics/functions/)
+  _Source_: [Elixir School](https://elixirschool.com/lessons/basics/functions/)
 
 ### Arity
 Functions all have an arity. Arity is the number of paramters that a function expects
@@ -101,9 +103,9 @@ iex> a = 2
 iex> ^a = 3
 ** (MatchError) no match of right hand side value: 3
 ```
-_note:_ in the example above the ```^``` is known as the pin operator. It is used to access the previously bound(assigned) variable.
+  _note:_ in the example above the ```^``` is known as the pin operator. It is used to access the previously bound(assigned) variable.
 
-_Source_: [Elixir Lang](http://elixir-lang.org/crash-course.html#variable-names)
+  _Source_: [Elixir Lang](http://elixir-lang.org/crash-course.html#variable-names)
 
 ###### A pretty awesome explanation of the above
 In Elixir the `=` operator doesn’t only do assignment, but also pattern matching. That’s why it’s called the _match_ operator. This also means that variables aren’t really places in memory that values are stored in, but rather _labels_ for the values. That is, Elixir/Erlang allocates memory for the values, not the variables.
