@@ -122,7 +122,7 @@ INSERT EXAMPLE HERE
 
 ### Higher-order Functions
 
-You can also pass functions as other functions arguements.
+You can also pass functions as other functions arguments.
 
 ### Closure
 
