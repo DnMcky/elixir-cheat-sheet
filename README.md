@@ -108,7 +108,7 @@ In Elixir a variable can assigned more than once. However when we pin(^) a varia
   _Source_: [Elixir Lang](http://elixir-lang.org/crash-course.html#variable-names)
 
 ###### A pretty awesome explanation of the above
-In Elixir the `=` operator doesn’t only do assignment, but also pattern matching. {the `=` operator doesn't do assignment it pattern matches, sometimes resolving that match through assignment} That’s why it’s called the _match_ operator. This also means that variables aren’t really places in memory that values are stored in, but rather _labels_ for the values. That is, Elixir/Erlang allocates memory for the values, not the variables.
+In Elixir the `=` operator doesn't do assignment it pattern matches, sometimes resolving that match through assignment. That’s why it’s called the _match_ operator. This also means that variables aren’t really places in memory that values are stored in, but rather _labels_ for the values. That is, Elixir/Erlang allocates memory for the values, not the variables.
 
 _Source_: [Steven Vandevelde - Medium Blog](https://medium.com/making-internets/functional-programming-elixir-pt-1-the-basics-bd3ce8d68f1b#.by1sux69o)
 
