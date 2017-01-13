@@ -128,9 +128,30 @@ INSERT EXAMPLE HERE
 
 ### Closure
 
+Closure is reliant on functions being first class. The differentiating feature however is that the variables that were in scope when the function was called will still be accessable.
+
+INSERT EXAMPLE HERE
+
 ### Immutable State
 
-Elixir is immutable
+Elixir is immutable. This eliminates cases where multiple entities can change a data structure.
+```
+iex> tuple = {:ok, "hello"}
+  {:ok, "hello"}
+  iex> put_elem(tuple, 1, "world")
+  {:ok, "world"}
+  iex> tuple
+  {:ok, "hello"}
+```
+However you can re-assign variables. Although you can see the hat/pin(`^`) stopping that and throwing the `no match` error.
+```
+  iex> a = 1
+  1
+  iex> a = 2
+  2
+  iex> ^a = 3
+  ** (MatchError) no match of right hand side value: 3
+```
 
 ## List of ___possibly___ awesome resources
 
