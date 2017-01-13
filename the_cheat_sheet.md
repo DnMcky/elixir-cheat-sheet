@@ -9,9 +9,9 @@ _How to identify_:
 * There will only be one module per ```.ex``` file
 * It will look like this:
 ```
-defmodule Path.To.Module do
+  defmodule Path.To.Module do
     #Find a bunch of functions here
-end
+  end
 ```
   _note_: the ```#``` you see in the code example above denotes a comment. Comments are lines in the code that are not executed and usually describe the next line in thr programme.
 
@@ -35,7 +35,7 @@ _How to identify_:
 ```
 * Or it will look like this:
 ```
-def cool_function_name(parameter), do: "Hello, " <> parameter
+  def cool_function_name(parameter), do: "Hello, " <> parameter
 ```
 _note:_ the easiest way to identify a typical function is the ```def do```
 
@@ -51,7 +51,7 @@ _How to identify_:
 ```
 * Or it will look like this:
 ```
-defp cool_function_name(parameter), do: "Hello, " <> parameter
+  defp cool_function_name(parameter), do: "Hello, " <> parameter
 ```
 _note:_ the easiest way to identify a private function is the ```p``` after ```def```
 
@@ -71,7 +71,7 @@ A shorthand version of anonymous functions
 _How to identify_:
 * It will look like this:
 ```
-sum = &(&1 + &2)
+  sum = &(&1 + &2)
 ```
 _note:_ ```&1``` and ```&2``` show how the paramters are made available
 
@@ -82,9 +82,9 @@ Functions all have an arity. Arity is the number of paramters that a function ex
 
 If a function takes 2 paramters it has an arity of 2 eg.
 ```
-def arity_two_function(parameter_one, parameter_two) do
-  parameter_one <> parameter_two
-end
+  def arity_two_function(parameter_one, parameter_two) do
+    parameter_one <> parameter_two
+  end
 ```
 _note:_ you will often see a function referred to like ```function/3```, this means that the function function has an arity of 3
 
@@ -96,12 +96,12 @@ A variable is a value stored against a variable name
 
 In Elixir a variable can assigned more than once. However when we pin(^) a variable we are saying that we want the value to be what we set it to previously. The = in this case is a pattern match, as can be seen below there is no match as a is currently 2.
 ```
-iex> a = 1
-1
-iex> a = 2
-2
-iex> ^a = 3
-** (MatchError) no match of right hand side value: 3
+  iex> a = 1
+  1
+  iex> a = 2
+  2
+  iex> ^a = 3
+  ** (MatchError) no match of right hand side value: 3
 ```
   _note:_ in the example above the ```^``` is known as the pin operator. It is used to access the previously bound(assigned) variable.
 
