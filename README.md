@@ -6,8 +6,8 @@
 A group of several functions
 
 _How to identify_:
-* There will only be one module per ```.ex``` file {not necesarily true, but is convention}
-* It will look like this:
+* There ~~will~~ should only be one module per ```.ex``` file (this is convention so may not be adhered to in 100% of cases)
+* It will(always) look like this:
 ```
   defmodule Path.To.Module do
     #Find a bunch of functions here
