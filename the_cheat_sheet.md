@@ -112,7 +112,23 @@ In Elixir the `=` operator doesn’t only do assignment, but also pattern matchi
 
 _Source_: [Steven Vandevelde - Medium Blog](https://medium.com/making-internets/functional-programming-elixir-pt-1-the-basics-bd3ce8d68f1b#.by1sux69o)
 
-## Things I didn't know about functional programming
+## Some Basics of Functional Programming in Elixir
+
+### First-class Functions
+
+In functional programming we often refer to first class functions. Simply put we mean that a function can be treated like any other variable.
+
+INSERT EXAMPLE HERE
+
+### Higher-order Functions
+
+You can also pass functions as other functions arguements.
+
+### Closure
+
+### Immutable State
+
+Elixir is immutable
 
 ## List of ___possibly___ awesome resources
 
