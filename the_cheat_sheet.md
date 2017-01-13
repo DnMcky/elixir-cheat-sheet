@@ -112,7 +112,7 @@ In Elixir the `=` operator doesn’t only do assignment, but also pattern matchi
 
 _Source_: [Steven Vandevelde - Medium Blog](https://medium.com/making-internets/functional-programming-elixir-pt-1-the-basics-bd3ce8d68f1b#.by1sux69o)
 
-## Some Basics of Functional Programming in Elixir
+## Some Basics of Functional Programming in Elixir (not exclusive to Elixir)
 
 ### First-class Functions
 
@@ -122,7 +122,9 @@ INSERT EXAMPLE HERE
 
 ### Higher-order Functions
 
-You can also pass functions as other functions arguments.
+You can also pass functions as arguments to other functions. This is an effect of functions being treated as first class.
+
+INSERT EXAMPLE HERE
 
 ### Closure
 
