@@ -138,7 +138,21 @@ Enum.map([1, 2, 3], fn(x) -> x * 2 end)
 
 Closure is reliant on functions being first class. The differentiating feature however is that the variables that were in scope when the function was called will still be accessable.
 
-INSERT EXAMPLE HERE
+```elixir
+a = 10
+
+closure = fn() -> IO.puts a end
+
+closure.()
+
+a = 20
+
+closure.()
+
+# Output:
+# 10
+# 10
+```
 
 ### Immutable State
 
