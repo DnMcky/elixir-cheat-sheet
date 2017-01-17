@@ -7,13 +7,13 @@ A group of several functions
 
 _How to identify_:
 * There ~~will~~ should only be one module per ```.ex``` file (this is convention so may not be adhered to in 100% of cases)
-* It will(always) look like this:
+* It will (always) look like this:
 ```
   defmodule Path.To.Module do
-    #Find a bunch of functions here
+    # Find a bunch of functions here
   end
 ```
-  _note_: the ```#``` you see in the code example above denotes a comment. Comments are lines in the code that are not executed and usually describe the next line in thr programme.
+  _note_: the ```#``` you see in the code example above denotes a comment. Comments are lines in the code that are not executed and usually describe the next line in the programme.
 
   _Source_: [Elixir Getting Started](http://elixir-lang.org/getting-started/modules.html)
 
@@ -113,6 +113,10 @@ In Elixir the `=` operator doesn't do assignment it pattern matches, sometimes r
 _Source_: [Steven Vandevelde - Medium Blog](https://medium.com/making-internets/functional-programming-elixir-pt-1-the-basics-bd3ce8d68f1b#.by1sux69o)
 
 ## Some Basics of Functional Programming in Elixir (not exclusive to Elixir)
+
+### Pure Functions
+
+A function is considered pure if it will always give the same output, given the same input and it does not cause any side-effects.
 
 ### First-class Functions
 
