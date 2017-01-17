@@ -122,7 +122,9 @@ A function is considered pure if it will always give the same output, given the 
 
 In functional programming we often refer to first class functions. Simply put we mean that a function can be treated like any other variable.
 
-INSERT EXAMPLE HERE
+```elixir
+function = fn(x) -> x * 2 end
+```
 
 ### Higher-order Functions
 
