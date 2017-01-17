@@ -78,7 +78,11 @@ _note:_ ```&1``` and ```&2``` show how the paramters are made available
   _Source_: [Elixir School](https://elixirschool.com/lessons/basics/functions/)
 
 ### Arity
-Functions all have an arity. Arity is the number of paramters that a function expects
+Functions all have an arity. Arity is the number of paramters that a function expects.
+
+Even if two functions have the same name, they are considered different if their arity is different.
+
+For example `hello/0` is a different function to `hello/1`, this is especially important when thinking about pattern matching.
 
 If a function takes 2 paramters it has an arity of 2 eg.
 ```
