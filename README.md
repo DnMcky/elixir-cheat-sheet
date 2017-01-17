@@ -18,7 +18,7 @@ _How to identify_:
   _Source_: [Elixir Getting Started](http://elixir-lang.org/getting-started/modules.html)
 
 ### Function
-A block of code that performs a specific task.
+A block of code that performs a specific task. It will take input in the form of arguments (can sometimes be 0 arguments, meaning no input is required) and respond with an output. 
 
 * There can be many functions in a module.
 * There are several ways to define a function in elixir.
