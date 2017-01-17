@@ -130,7 +130,9 @@ function = fn(x) -> x * 2 end
 
 You can also pass functions as arguments to other functions. This is an effect of functions being treated as first class.
 
-INSERT EXAMPLE HERE
+```elixir
+Enum.map([1, 2, 3], fn(x) -> x * 2 end)
+```
 
 ### Closure
 
